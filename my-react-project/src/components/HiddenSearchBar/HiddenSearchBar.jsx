@@ -12,3 +12,4 @@ const HiddenSearchBar = () => {
 }
 
 export default HiddenSearchBar
+
