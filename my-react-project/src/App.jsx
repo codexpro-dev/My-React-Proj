@@ -13,8 +13,8 @@ const App = () => {
       <Todo />
       <Meals />
       <Calculator />
-      <ToggleBg /> */}
-      <HiddenSearchBar />
+      <ToggleBg />
+      <HiddenSearchBar /> */}
     </div>
   )
 }
