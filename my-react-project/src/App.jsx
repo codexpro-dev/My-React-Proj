@@ -1,18 +1,20 @@
-import React from 'react'
-import {accordionData} from './components/Accordions/utils/content'
-import Accordion from './components/Accordions/Accordion'
+import React from "react";
+import { accordionData } from "./components/Accordions/utils/content";
+import Accordion from "./components/Accordions/Accordion";
+import Form from "./components/Form Validation/Form";
 
 const App = () => {
   return (
     <div>
-    <div className="accordion">
+      {/* <div className="accordion">
       {accordionData.map(({title, content}) => (
         <Accordion title={title} content={content} />
       ))}
+    </div> */}
 
+    <Form />
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
